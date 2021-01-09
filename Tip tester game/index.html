@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>An empty page</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <form class="choose-level">
+        <legend>Choose Level</legend>
+        <span> <input type="radio" name="level" value="10">Easy</span>
+        <span>  <input type="radio" name="level" value="5">Medium</span>
+        <span> <input type="radio" name="level" value="3">Hard</span>
+        </form>
+    </header>
+
+    <section class="main-part">
+        <p>type the given word within <span id="show-time">5</span> seconds</p>
+        <div class="word">word</div>
+        <input id="input" type="text" placeholder="Start typing..." name="Subject">
+        <div class="reset-section">
+            <p>Game over!!!</p>
+            <button class="reset">Restart</button>
+        </div>
+        <div class="status">
+            <p>TimeLeft : 5</p>
+            <p>Score : 0</p>
+            <p>Level : 0</p>
+        </div>
+        <br>
+        <div class="status-words">
+            <ul>
+            </ul>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
